@@ -255,7 +255,7 @@ def main():
 
     # openai_api_key = os.getenv("OPENAI_API_KEY")
     import os
-    openai_api_key = "sk-proj-D6yiikXTzHpcQX2m9vKkT3BlbkFJ4WwgrF7n6Z9l9aTJjK0c"  ##st.secrets["OPENAI_API_KEY"]
+    openai_api_key = st.secrets["OPENAI_API_KEY"]
     
     #load_dotenv()
     uploaded_files = st.file_uploader(
