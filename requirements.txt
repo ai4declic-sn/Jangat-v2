@@ -5,6 +5,7 @@ langchain
 pdf2image
 pytesseract
 openai
+translate
 tiktoken
 langchain-community
 python-dotenv
