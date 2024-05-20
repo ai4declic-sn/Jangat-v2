@@ -4,4 +4,5 @@ PyPDF2
 langchain
 openai
 tiktoken
+python-dotenv
 python-docx
