@@ -8,7 +8,7 @@ from tempfile import NamedTemporaryFile
 import PyPDF2
 import streamlit as st
 from dotenv import load_dotenv
-from langchain.callbacks.base import CallbackManager
+from langchain.callbacks.manager import CallbackManager
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.chains import QAGenerationChain, RetrievalQA
 from langchain.chat_models import ChatOpenAI
