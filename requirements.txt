@@ -3,6 +3,7 @@ faiss-cpu
 PyPDF2
 langchain
 pdf2image
+pytesseract
 openai
 tiktoken
 langchain-community
