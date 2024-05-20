@@ -1,0 +1,24 @@
+https://github.com/pratikkalein/chat-with-pdf
+
+
+
+https://github.com/semasuka/talk-to-your-pdf/blob/main/streamlit_app.py
+
+
+Demo SONATEL 
+
+https://github.com/harishahamed26/MedGPT/tree/main
+
+
+https://experimental-clinical-support.streamlit.app/
+
+
+
+https://github.com/ai4declic-sn/ai-medecine
+
+
+https://ai-medecine-enukcomduhyhmouqdvza6o.streamlit.app/
+
+
+1. Charge the global repport of patients and get recommendations from LLMs (PDF with TABS in cons)
+
