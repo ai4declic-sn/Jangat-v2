@@ -237,11 +237,11 @@ def main():
         """,
         unsafe_allow_html=True,
     )
-    st.sidebar.image("/workspaces/data-qa-main/jangat/img/left.png")
+    st.sidebar.image("img/left.png")
     show_auto_questions = st.sidebar.checkbox("Questions générées")
     show_history = st.sidebar.checkbox("Historique des questions")
 
-    st.image("/workspaces/data-qa-main/jangat/img/jangat.jpeg")
+    st.image("img/jangat.jpeg")
     # st.write(
     # f"""
     # <div style="display: flex; align-items: center; margin-left: 0;">
