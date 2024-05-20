@@ -255,9 +255,9 @@ def main():
 
     # openai_api_key = os.getenv("OPENAI_API_KEY")
     import os
-    openai_api_key = st.secrets["OPENAI_API_KEY"]
+    openai_api_key = "sk-proj-UjuGHabi06mRCcMt63h3T3BlbkFJkAfZeb534JcnnVBTWJDp"  ##st.secrets["OPENAI_API_KEY"]
     
-    load_dotenv()
+    #load_dotenv()
     uploaded_files = st.file_uploader(
         "Upload a PDF or TXT Document", type=["pdf", "txt"], accept_multiple_files=True
     )
