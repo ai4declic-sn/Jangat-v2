@@ -254,10 +254,9 @@ def main():
     retriever_type = "SIMILARITY SEARCH"
 
     # openai_api_key = os.getenv("OPENAI_API_KEY")
-    ##st.session_state.openai_api_key = "sk-proj-D6yiikXTzHpcQX2m9vKkT3BlbkFJ4WwgrF7n6Z9l9aTJjK0c" ## "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"
     import os
-
-    os.environ["OPENAI_API_KEY"] = "sk-proj-UjuGHabi06mRCcMt63h3T3BlbkFJkAfZeb534JcnnVBTWJDp"
+    openai_api_key = st.secrets["OPENAI_API_KEY"]
+    
     load_dotenv()
     uploaded_files = st.file_uploader(
         "Upload a PDF or TXT Document", type=["pdf", "txt"], accept_multiple_files=True
