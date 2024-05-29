@@ -20,7 +20,7 @@ from pdf2image import convert_from_path  # type: ignore
 from pytesseract import image_to_string  # type: ignore
 from translate import Translator
 
-st.set_page_config(page_title="Chat With PDF", page_icon=":robot_face:")
+st.set_page_config(page_title="Jàngat", page_icon="img/logo-jangat.png")
 
 
 @st.cache_data
